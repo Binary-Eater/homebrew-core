@@ -6,7 +6,7 @@ class Valgrind < Formula
     url "https://sourceware.org/pub/valgrind/valgrind-3.15.0.tar.bz2"
     sha256 "417c7a9da8f60dd05698b3a7bc6002e4ef996f14c13f0ff96679a16873e78ab1"
 
-    depends_on :maximum_macos => :mojave
+    depends_on :maximum_macos => :high_sierra
   end
 
   bottle do
